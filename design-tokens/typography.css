@@ -1,0 +1,63 @@
+/*
+ * ima Design Tokens - Typography
+ * Source: ima.copilot CSS (dark=default, light=[data-theme='light'])
+ */
+:root {
+  --font-family: system-ui, -apple-system, BlinkMacSystemFont, segoe ui, Roboto, Helvetica, Arial, sans-serif;
+  --td-font-family: PingFang SC, Microsoft YaHei, Arial Regular;
+  --td-font-family-medium: PingFang SC, Microsoft YaHei, Arial Medium;
+  --td-font-size-body-large: 16px;
+  --td-font-size-body-medium: 14px;
+  --td-font-size-body-small: 12px;
+  --td-font-size-display-large: 64px;
+  --td-font-size-display-medium: 48px;
+  --td-font-size-headline-large: 36px;
+  --td-font-size-headline-medium: 28px;
+  --td-font-size-headline-small: 24px;
+  --td-font-size-link-large: 16px;
+  --td-font-size-link-medium: 14px;
+  --td-font-size-link-small: 12px;
+  --td-font-size-mark-medium: 14px;
+  --td-font-size-mark-small: 12px;
+  --td-font-size-title-large: 20px;
+  --td-font-size-title-medium: 16px;
+  --td-font-size-title-small: 14px;
+  --td-line-height-body-large: 24px;
+  --td-line-height-body-medium: 22px;
+  --td-line-height-body-small: 20px;
+  --td-line-height-common: 8px;
+  --td-line-height-display-large: 72px;
+  --td-line-height-display-medium: 56px;
+  --td-line-height-headline-large: 44px;
+  --td-line-height-headline-medium: 36px;
+  --td-line-height-headline-small: 32px;
+  --td-line-height-link-large: 24px;
+  --td-line-height-link-medium: 22px;
+  --td-line-height-link-small: 20px;
+  --td-line-height-mark-medium: 22px;
+  --td-line-height-mark-small: 20px;
+  --td-line-height-title-large: 28px;
+  --td-line-height-title-medium: 24px;
+  --td-line-height-title-small: 22px;
+}
+
+/* Light mode overrides */
+html[data-theme='light'],
+html:not([data-theme='dark']):not([ima-theme='dark']) {
+  --td-line-height-body-large: calc(var(--td-font-size-body-large) + var(--td-line-height-common));
+  --td-line-height-body-medium: calc(var(--td-font-size-body-medium) + var(--td-line-height-common));
+  --td-line-height-body-small: calc(var(--td-font-size-body-small) + var(--td-line-height-common));
+  --td-line-height-display-large: calc(var(--td-font-size-display-large) + var(--td-line-height-common));
+  --td-line-height-display-medium: calc(var(--td-font-size-display-medium) + var(--td-line-height-common));
+  --td-line-height-headline-large: calc(var(--td-font-size-headline-large) + var(--td-line-height-common));
+  --td-line-height-headline-medium: calc(var(--td-font-size-headline-medium) + var(--td-line-height-common));
+  --td-line-height-headline-small: calc(var(--td-font-size-headline-small) + var(--td-line-height-common));
+  --td-line-height-link-large: calc(var(--td-font-size-link-large) + var(--td-line-height-common));
+  --td-line-height-link-medium: calc(var(--td-font-size-link-medium) + var(--td-line-height-common));
+  --td-line-height-link-small: calc(var(--td-font-size-link-small) + var(--td-line-height-common));
+  --td-line-height-mark-medium: calc(var(--td-font-size-mark-medium) + var(--td-line-height-common));
+  --td-line-height-mark-small: calc(var(--td-font-size-mark-small) + var(--td-line-height-common));
+  --td-line-height-title-large: calc(var(--td-font-size-title-medium) + var(--td-line-height-common));
+  --td-line-height-title-medium: calc(var(--td-font-size-title-medium) + var(--td-line-height-common));
+  --td-line-height-title-small: calc(var(--td-font-size-title-small) + var(--td-line-height-common));
+}

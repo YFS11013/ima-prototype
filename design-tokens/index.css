@@ -1,0 +1,21 @@
+/*
+ * ima Design Tokens - Entry Point
+ * Import: @import '../../design-tokens/index.css';
+ *
+ * Layers (import order matters):
+ *   1. colors      - Brand, functional, surface, TDesign color overrides (~320 vars)
+ *   2. typography   - Font sizes, weights, line-heights
+ *   3. spacing     - Padding, margin, radius, breakpoints
+ *   4. elevation   - Shadows and z-index scale
+ *   5. layout      - Business-specific sizing tokens
+ *   6. editor      - Slate.js editor theme (A1-A9 system)
+ *
+ * Theme: dark by default. Add data-theme='light' to <html> for light mode.
+ */
+
+@import './colors.css';
+@import './typography.css';
+@import './spacing.css';
+@import './elevation.css';
+@import './layout.css';
+@import './editor.css';

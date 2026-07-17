@@ -1,0 +1,38 @@
+/*
+ * ima Design Tokens - Spacing & Sizing
+ * Source: ima.copilot CSS (dark=default, light=[data-theme='light'])
+ */
+:root {
+  --mine-knowledge-base-list-padding-bottom: calc(var(--knowledge-base-input-height) + 48px);
+  --mobile-fullscreen-safe-area-env-bottom: 0px;
+  --mobile-fullscreen-safe-area-env-top: 44px;
+  --mobile-fullscreen-safe-area-top: var(--safe-area-inset-top, var(--mobile-fullscreen-safe-area-env-top, 44px));
+  --td-radius-circle: 50%;
+  --td-radius-default: 3px;
+  --td-radius-extraLarge: 12px;
+  --td-radius-large: 9px;
+  --td-radius-medium: 6px;
+  --td-radius-round: 999px;
+  --td-radius-small: 2px;
+  --td-screen-lg: 1200px;
+  --td-screen-md: 992px;
+  --td-screen-sm: 768px;
+  --td-screen-xl: 1400px;
+  --td-screen-xs: 320px;
+  --td-size-1: 2px;
+  --td-size-10: 32px;
+  --td-size-11: 36px;
+  --td-size-12: 40px;
+  --td-size-13: 48px;
+  --td-size-14: 56px;
+  --td-size-15: 64px;
+  --td-size-16: 72px;
+  --td-size-2: 4px;
+  --td-size-3: 6px;
+  --td-size-4: 8px;
+  --td-size-5: 12px;
+  --td-size-6: 16px;
+  --td-size-7: 20px;
+  --td-size-8: 24px;
+  --td-size-9: 28px;
+}

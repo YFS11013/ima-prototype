@@ -1,0 +1,35 @@
+/*
+ * ima Design Tokens - Editor (Slate.js A1-A9 system)
+ * Source: ima.copilot CSS (dark=default, light=[data-theme='light'])
+ */
+:root {
+  --A1: #242424;
+  --A1D: #fff;
+  --A1T: rgba(0, 0, 0, .86);
+  --A2: #666;
+  --A2D: rgba(255, 255, 255, .6);
+  --A2T: rgba(0, 0, 0, .6);
+  --A3: #8f8f8f;
+  --A3D: rgba(255, 255, 255, .44);
+  --A3T: rgba(0, 0, 0, .44);
+  --A4: #b3b3b3;
+  --A4D: rgba(255, 255, 255, .3);
+  --A4T: rgba(0, 0, 0, .3);
+  --A5T: #0000003d;
+  --EditorSelected: rgba(54, 193, 146, .15);
+  --image-size: 335px;
+  --knowledge-base-editor-area: #363636;
+  --knowledge-base-editor-area-text: #d6d6d6;
+  --note-content-min-with: 490px;
+  --qb-editor-space: 12px;
+  --qb-editor-space-p1: 10px;
+  --qb-editor-space-p2: 6px;
+  --small-image-size: 157px;
+  --theme_bg_code: #f0f0f0;
+}
+
+/* Light mode overrides */
+html[data-theme='light'],
+html:not([data-theme='dark']):not([ima-theme='dark']) {
+  --knowledge-base-editor-area: white;
+}

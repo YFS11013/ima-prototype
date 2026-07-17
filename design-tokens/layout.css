@@ -1,0 +1,39 @@
+/*
+ * ima Design Tokens - Layout
+ * Source: ima.copilot CSS (dark=default, light=[data-theme='light'])
+ */
+:root {
+  --knowledge-base-input-height: 96px;
+  --max-folder-name-width: 125px;
+  --max-knowledge-base-page-width: 1200px;
+  --max-tag-name-width: 125px;
+  --max-width-qa: 768px;
+  --max-width-qa-knowledge-floating: 784px;
+  --max-width-qa-knowledge-floating-history: 960px;
+  --max-width-qa-knowledge-history: 702px;
+  --min-width-qa: 338px;
+  --min-width-qa-knowledge: 420px;
+  --official-website-title-gradient: linear-gradient(93deg, #23ba71 4.81%, #079651 57.23%);
+  --td-font-display-medium: 600 var(--td-font-size-display-medium) / var(--td-line-height-display-medium) var(--td-font-family);
+  --td-font-headline-large: 600 var(--td-font-size-headline-large) / var(--td-line-height-headline-large) var(--td-font-family);
+  --td-font-headline-medium: 600 var(--td-font-size-headline-medium) / var(--td-line-height-headline-medium) var(--td-font-family);
+  --td-font-headline-small: 600 var(--td-font-size-headline-small) / var(--td-line-height-headline-small) var(--td-font-family);
+  --td-font-mark-medium: 600 var(--td-font-size-mark-medium) / var(--td-line-height-mark-medium) var(--td-font-family);
+  --td-font-mark-small: 600 var(--td-font-size-mark-small) / var(--td-line-height-mark-small) var(--td-font-family);
+  --td-font-title-large: 600 var(--td-font-size-title-large) / var(--td-line-height-title-large) var(--td-font-family);
+  --td-font-title-medium: 600 var(--td-font-size-title-medium) / var(--td-line-height-title-medium) var(--td-font-family);
+  --td-font-title-small: 600 var(--td-font-size-title-small) / var(--td-line-height-title-small) var(--td-font-family);
+}
+
+/* Light mode overrides */
+html[data-theme='light'],
+html:not([data-theme='dark']):not([ima-theme='dark']) {
+  --official-website-title-gradient: linear-gradient(92deg, #1b5c3d 1.92%, #206d48 6.65%, #079d55 91.4%);
+  --td-font-display-medium: var(--td-font-size-display-medium) / var(--td-line-height-display-medium) var(--td-font-family);
+  --td-font-headline-large: var(--td-font-size-headline-large) / var(--td-line-height-headline-large) var(--td-font-family);
+  --td-font-headline-medium: var(--td-font-size-headline-medium) / var(--td-line-height-headline-medium) var(--td-font-family);
+  --td-font-headline-small: var(--td-font-size-headline-small) / var(--td-line-height-headline-small) var(--td-font-family);
+  --td-font-title-large: var(--td-font-size-title-large) / var(--td-line-height-title-large) var(--td-font-family);
+  --td-font-title-medium: var(--td-font-size-title-medium) / var(--td-line-height-title-medium) var(--td-font-family);
+  --td-font-title-small: var(--td-font-size-title-small) / var(--td-line-height-title-small) var(--td-font-family);
+}
